@@ -92,9 +92,5 @@ const data = [
 ]
 
 export default function handler(req, res) {
-	res.setHeader('Content-Type', 'application/json')
-
-	if (req.method === 'GET')
-		res.status(200).json(data)
-	res.status(500).json({})
+	res.status(200).json(data)
 }

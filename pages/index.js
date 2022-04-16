@@ -9,15 +9,12 @@ import axios from 'axios'
 import CarsList from '../components/CarsList'
 import Nearley from 'nearley'
 import Grammer from '../parser/filter'
-import { SignalCellularNullOutlined } from '@mui/icons-material'
-
 
 export default function Home() {
   const [cars, setCars] = useState([])
   const [isValidInput, setValidInput] = useState(true)
 
   useEffect(() => {
-    // validateInput({ target: { value: "" } })
     axios.get('/api/cars').then(res => {
       setCars(res.data)
     })
