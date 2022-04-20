@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nearley home page verify the elements are present 1`] = `
+<div>
+  <div>
+    <p
+      class="text-4xl text-gray-300 text-center"
+      data-test="heading"
+    >
+      Cars
+    </p>
+    <div
+      class="border-2 rounded-lg m-6 p-6 text-center"
+    >
+      <div
+        class="flex flex-row mx-auto md:w-1/2 border rounded-lg"
+      >
+        <div
+          class="MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-sizeSmall css-piqts5-MuiInputBase-root"
+          data-test="nearley-input"
+        >
+          <input
+            class="MuiInputBase-input MuiInputBase-inputSizeSmall css-7dqvty-MuiInputBase-input"
+            placeholder="Brand, Car name, Vehicle type, Fuel type..."
+            type="text"
+            value=""
+          />
+        </div>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth MuiDivider-vertical css-164v1lq-MuiDivider-root"
+        />
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1bxg8jb-MuiButtonBase-root-MuiIconButton-root"
+          data-test="check-btn"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CheckIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="p-2 mt-4"
+      >
+        loading...
+      </div>
+    </div>
+  </div>
+</div>
+`;
